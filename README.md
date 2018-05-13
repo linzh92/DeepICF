@@ -1,5 +1,5 @@
 # DeepICF
-TensorFlow Implementation of Deep Item-based Collaborative Filtering Model for Recommendation
+TensorFlow Implementation of Deep Item-based Collaborative Filtering Model for Top-N Recommendation
 
 This is the official implementation for the paper:
 **DeepICF: Deep Item-based Collaborative Filtering Model for Top-N Recommendation.**
