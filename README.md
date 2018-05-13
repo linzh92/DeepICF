@@ -23,7 +23,7 @@ Run **DeepICF+a**:
 
 Output of **DeepICF+a**:
 
-## Dataset
+## Datasets
 We provide two processed datasets: MovieLens 1 Million (ml-1m) and Pinterest (pinterest-20).
 
 **train.rating:**
