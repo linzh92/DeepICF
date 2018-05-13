@@ -10,9 +10,9 @@ Two deep collaborative filtering models: **DeepICF** & **DeepICF+a**. To target 
 **Please cite our paper if you use our codes. THX!**
 
 ## Environment Settings
-Python 2.7
-TensorFlow >= r1.0
-Numpy >= 1.12
+- Python 2.7
+- TensorFlow >= r1.0
+- Numpy >= 1.12
 
 ## Examples to run the codes
 Run **DeepICF**:
