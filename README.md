@@ -11,8 +11,8 @@ Two deep collaborative filtering models: **DeepICF** & **DeepICF+a**. To target 
 
 ## Environment Settings
 - Python: '2.7'
-- TensorFlow >= r1.0
-- Numpy >= 1.12
+- TensorFlow: 'r1.0'
+- Numpy: 1.13
 
 ## Examples to run the codes
 Run **DeepICF**:
