@@ -7,7 +7,7 @@ Feng Xue, Kai Liu, Xiang Wang, Jiandong Xu & Xiangnan He.
 
 Two deep collaborative filtering models: **DeepICF** & **DeepICF+a**. To target the models for implicit feedback and ranking task, we optimize them using log loss with negative sampling.
 
-**Please cite our paper if you use our codes. THX!**
+**Please cite our paper if you use our codes. Thx!**
 
 ## Environment Settings
 - Python: '2.7'
@@ -15,12 +15,16 @@ Two deep collaborative filtering models: **DeepICF** & **DeepICF+a**. To target 
 - Numpy: '1.13'
 
 ## Examples to run the codes
-Run **DeepICF**:
-
+Run **DeepICF** (with FISM item embeddings pre-training):
+'''
+python DeepICF.py --path Data/ --dataset ml-1m --epochs 100 --verbose 1 --batch_choice user --embed_size 16 --layers [64,32,16] --regs [1e-06,1e-06] --reg_W [0.1,0.1,0.1,0.1] --alpha 0.5 --train_loss 1 --num_neg 4 --lr 0.01 --batch_norm 1 --pretrain 1
+'''
 Output of **DeepICF**:
 
-Run **DeepICF+a**:
-
+Run **DeepICF+a** (with FISM item embeddings pre-training):
+'''
+python DeepICF_a.py --path Data/ --dataset ml-1m --epochs 100 --beta 0.8 --weight_size 16 --activation 0 --algorithm 0 --verbose 1 --batch_choice user --embed_size 16 --layers [64,32,16] --regs [1e-06,1e-06,1e-06] --reg_W [10,10,10,10] --alpha 0 --train_loss 1 --num_neg 4 --lr 0.01 --batch_norm 1 --pretrain 1
+'''
 Output of **DeepICF+a**:
 
 ## Datasets
