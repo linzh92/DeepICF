@@ -19,18 +19,18 @@ Run **DeepICF** (with FISM item embeddings pre-training):
 ```
 python DeepICF.py --path Data/ --dataset ml-1m --epochs 100 --verbose 1 --batch_choice user --embed_size 16 --layers [64,32,16] --regs [1e-06,1e-06] --reg_W [0.1,0.1,0.1,0.1] --alpha 0.5 --train_loss 1 --num_neg 4 --lr 0.01 --batch_norm 1 --pretrain 1
 ```
-Output of **DeepICF**: <\br>
-![](figure/DeepICF_fig1.png)<\br>
-...<\br>
-![](figure/DeepICF_fig2.png)<\br>
+Output of **DeepICF**:  
+![](figure/DeepICF_fig1.png)  
+...  
+![](figure/DeepICF_fig2.png)
 
 Run **DeepICF+a** (with FISM item embeddings pre-training):
 ```
 python DeepICF_a.py --path Data/ --dataset ml-1m --epochs 100 --beta 0.8 --weight_size 16 --activation 0 --algorithm 0 --verbose 1 --batch_choice user --embed_size 16 --layers [64,32,16] --regs [1e-06,1e-06,1e-06] --reg_W [10,10,10,10] --alpha 0 --train_loss 1 --num_neg 4 --lr 0.01 --batch_norm 1 --pretrain 1
 ```
-Output of **DeepICF+a**:
-![](figure/DeepICF+a_fig1.png)
-...
+Output of **DeepICF+a**:  
+![](figure/DeepICF+a_fig1.png)  
+...  
 ![](figure/DeepICF+a_fig2.png)
 
 ## Datasets
