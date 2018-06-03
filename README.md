@@ -52,4 +52,4 @@ We provide two processed datasets: MovieLens 1 Million (ml-1m) and Pinterest (pi
 - Each line corresponds to the line of test.rating, containing 99 negative samples.
 - Each line is in the format: (userID,itemID)\t negativeItemID1\t negativeItemID2 ...
 
-Update Date: May 14th, 2018
+Update Date: June 3rd, 2018
