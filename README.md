@@ -2,9 +2,7 @@
 TensorFlow Implementation of Deep Item-based Collaborative Filtering Model for Top-N Recommendation
 
 This is the official implementation for the paper as follows, which is based on the implementation of [NAIS (TKDE 2018)](https://github.com/AaronHeee/Neural-Attentive-Item-Similarity-Model):
-- **Deep Item-based Collaborative Filtering for Top-N Recommendation**
-Feng Xue, Xiangnan He, Xiang Wang, Jiandong Xu, Kai Liu, & Richang Hong, 
-ACM Transactions on Information Systems (TOIS 2019).
+- Feng Xue, Xiangnan He, Xiang Wang, Jiandong Xu, Kai Liu, Richang Hong, **Deep Item-based Collaborative Filtering for Top-N Recommendation.** ACM Trans. Inf. Syst. 37(3): 33:1-33:25 (2019)
 
 Two deep collaborative filtering models: **DeepICF** & **DeepICF+a**. To target the models for implicit feedback and ranking task, we optimize them using log loss with negative sampling.
 
